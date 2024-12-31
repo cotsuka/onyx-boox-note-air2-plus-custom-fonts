@@ -83,16 +83,25 @@
     <alias name="ITC Stone Serif" to="serif" />
 
     <family name="monospace">
+        <font weight="400" style="normal">Hack-Regular.ttf</font>
+        <font weight="700" style="normal">Hack-Bold.ttf</font>
+        <font weight="400" style="italic">Hack-Italic.ttf</font>
+        <font weight="700" style="italic">Hack-BoldItalic.ttf</font>
+    </family>
+
+    <family fallbackFor="monospace">
         <font weight="400" style="normal">DroidSansMono.ttf</font>
     </family>
-    <alias name="sans-serif-monospace" to="monospace" />
-    <alias name="monaco" to="monospace" />
 
-    <family name="serif-monospace">
+    <family fallbackFor="monospace">
         <font weight="400" style="normal">CutiveMono.ttf</font>
     </family>
-    <alias name="courier" to="serif-monospace" />
-    <alias name="courier new" to="serif-monospace" />
+
+    <alias name="sans-serif-monospace" to="monospace" />
+    <alias name="serif-monospace" to="monospace" />
+    <alias name="monaco" to="monospace" />
+    <alias name="courier" to="monospace" />
+    <alias name="courier new" to="monospace" />
 
     <family name="casual">
         <font weight="400" style="normal">ComingSoon.ttf</font>
