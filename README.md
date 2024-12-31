@@ -1,5 +1,5 @@
 # onyx-boox-note-air2-plus-custom-fonts
-Magisk module to add custom fonts for system-wise usage.
+Magisk module to add custom fonts system-wide
 
 ## Instructions
 1. Place fonts in `system/fonts`
